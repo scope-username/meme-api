@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  meme-api:
+    build: .
+    image: meme-api
+    container_name: meme-api-app
+    ports:
+      - 5000:5000
